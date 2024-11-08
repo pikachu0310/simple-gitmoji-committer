@@ -2,6 +2,8 @@
 
 A simple CLI tool for adding Gitmoji to commit messages interactively. This tool allows you to search for and select a Gitmoji to add to your commit message, making it quick and easy to improve commit readability and expressiveness.
 
+![Simple Gitmoji Committer](./simple-gitmoji-committer.gif)
+
 ## Installation
 
 To install `simple-gitmoji-committer`, you can use `npm`:
@@ -14,17 +16,18 @@ npm install -g simple-gitmoji-committer
 
 1. Stage your changes as usual:
 
-    ```bash
-    git add .
-    ```
+   ```bash
+   git add .
+   ```
 
 2. Run `simple-gitmoji-committer` to start the interactive prompt:
 
-    ```bash
-    simple-gitmoji-committer
-    ```
+   ```bash
+   simple-gitmoji-committer
+   ```
 
 3. Follow the prompts:
+
    - Select a Gitmoji by typing keywords to search or by scrolling through the options.
    - Enter your commit message.
 
